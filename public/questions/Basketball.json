@@ -1,0 +1,89 @@
+{
+    "questions": [
+        {
+            "question": "Who is often referred to as 'The King' in basketball?",
+            "options": [
+                "LeBron James",
+                "Kobe Bryant",
+                "Michael Jordan",
+                "Kevin Durant"
+            ],
+            "answer": "LeBron James"
+        },
+        {
+            "question": "Which NBA team has won the most championships?",
+            "options": [
+                "Los Angeles Lakers",
+                "Boston Celtics",
+                "Chicago Bulls",
+                "Golden State Warriors"
+            ],
+            "answer": "Boston Celtics"
+        },
+        {
+            "question": "In what year did Michael Jordan win his first NBA championship with the Chicago Bulls?",
+            "options": ["1991", "1988", "1993", "1996"],
+            "answer": "1991"
+        },
+        {
+            "question": "Which player holds the record for the most points scored in a single NBA game?",
+            "options": [
+                "Wilt Chamberlain",
+                "Kobe Bryant",
+                "Michael Jordan",
+                "James Harden"
+            ],
+            "answer": "Wilt Chamberlain"
+        },
+        {
+            "question": "Who won the NBA MVP award for the 2020-2021 season?",
+            "options": [
+                "LeBron James",
+                "Giannis Antetokounmpo",
+                "Kevin Durant",
+                "Stephen Curry"
+            ],
+            "answer": "Nikola Jokic"
+        },
+        {
+            "question": "Which team drafted Shaquille O'Neal as the first overall pick in the 1992 NBA Draft?",
+            "options": [
+                "Orlando Magic",
+                "Los Angeles Lakers",
+                "Charlotte Hornets",
+                "Golden State Warriors"
+            ],
+            "answer": "Orlando Magic"
+        },
+        {
+            "question": "How many players are on the court for each team during a standard NBA game?",
+            "options": ["5", "6", "7", "8"],
+            "answer": "5"
+        },
+        {
+            "question": "Who is the NBA's all-time leading scorer?",
+            "options": [
+                "Kareem Abdul-Jabbar",
+                "Kobe Bryant",
+                "LeBron James",
+                "Michael Jordan"
+            ],
+            "answer": "Kareem Abdul-Jabbar"
+        },
+        {
+            "question": "Which player is known for his signature move, the 'Sky Hook'?",
+            "options": [
+                "Michael Jordan",
+                "Shaquille O'Neal",
+                "Hakeem Olajuwon",
+                "Kareem Abdul-Jabbar"
+            ],
+            "answer": "Kareem Abdul-Jabbar"
+        },
+        {
+            "question": "In which year did the NBA introduce the three-point line?",
+            "options": ["1979", "1984", "1991", "1996"],
+            "answer": "1979"
+        }
+    ]
+}
