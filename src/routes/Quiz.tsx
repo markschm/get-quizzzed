@@ -24,6 +24,7 @@ export default function Quiz() {
                 ).json();
                 setQuestions(getRandomizedQuestions(questions));
             } catch (error) {
+                // TODO: should never occur, but could use better handling
                 console.log("Error fetching questions: " + error);
             } finally {
                 setIsLoading(false);
