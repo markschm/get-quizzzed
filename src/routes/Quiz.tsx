@@ -22,7 +22,7 @@ export default function Quiz() {
                 const { questions } = await (
                     await fetch(`../questions/${topic}.json`)
                 ).json();
-                setQuestions(questions);
+                setQuestions(getRandomizedQuestions(questions));
             } catch (error) {
                 console.log("Error fetching questions: " + error);
             } finally {
@@ -96,14 +96,31 @@ export default function Quiz() {
                 );
             })}
 
-            {!isShowingResults && (
+            {isShowingResults ? (
+                <button onClick={() => nextQuestion()}>Next Question</button>
+            ) : (
                 <button onClick={() => currentSelectedOption && submitAnswer()}>
                     Submit
                 </button>
             )}
-            {isShowingResults && (
-                <button onClick={() => nextQuestion()}>Next Question</button>
-            )}
         </div>
     );
+}
+
+function getRandomizedQuestions(questions: Question[]): Question[] {
+    for (let i = 0; i < questions.length; i++) {
+        questions[i].options = getRandomizedArray(questions[i].options);
+    }
+
+    questions = getRandomizedArray(questions);
+    return questions;
+}
+
+function getRandomizedArray(arr: any[]): any[] {
+    for (let i = 0; i < arr.length; i++) {
+        const j = Math.floor(Math.random() * (arr.length - 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+
+    return arr;
 }
