@@ -1,0 +1,11 @@
+.selectedTopicElement {
+    background-color: red;
+}
+
+.currentSelectedOption {
+    background-color: red;
+}
+
+.correctOption {
+    background-color: green;
+}
