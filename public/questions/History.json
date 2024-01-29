@@ -1,0 +1,104 @@
+{
+    "questions": [
+        {
+            "question": "In what year did Christopher Columbus first reach the Americas?",
+            "options": [
+                "1492",
+                "1505",
+                "1510",
+                "1498"
+            ],
+            "answer": "1492"
+        },
+        {
+            "question": "Who was the first President of the United States?",
+            "options": [
+                "George Washington",
+                "Thomas Jefferson",
+                "John Adams",
+                "James Madison"
+            ],
+            "answer": "George Washington"
+        },
+        {
+            "question": "Which war is also known as the Great War?",
+            "options": [
+                "World War I",
+                "World War II",
+                "Civil War",
+                "Vietnam War"
+            ],
+            "answer": "World War I"
+        },
+        {
+            "question": "What ancient civilization built the pyramids of Giza?",
+            "options": [
+                "Egyptians",
+                "Mayans",
+                "Greeks",
+                "Romans"
+            ],
+            "answer": "Egyptians"
+        },
+        {
+            "question": "Who was the famous nurse during the Crimean War known as the Lady with the Lamp?",
+            "options": [
+                "Florence Nightingale",
+                "Clara Barton",
+                "Mary Seacole",
+                "Edith Cavell"
+            ],
+            "answer": "Florence Nightingale"
+        },
+        {
+            "question": "In what year did the Berlin Wall fall, leading to the reunification of Germany?",
+            "options": [
+                "1989",
+                "1991",
+                "1985",
+                "1993"
+            ],
+            "answer": "1989"
+        },
+        {
+            "question": "Who was the leader of the Soviet Union during the Cuban Missile Crisis?",
+            "options": [
+                "Nikita Khrushchev",
+                "Joseph Stalin",
+                "Leon Trotsky",
+                "Mikhail Gorbachev"
+            ],
+            "answer": "Nikita Khrushchev"
+        },
+        {
+            "question": "Which ancient city was known for its Hanging Gardens?",
+            "options": [
+                "Babylon",
+                "Athens",
+                "Rome",
+                "Perspolis"
+            ],
+            "answer": "Babylon"
+        },
+        {
+            "question": "Who is credited with the invention of the printing press?",
+            "options": [
+                "Johannes Gutenberg",
+                "Leonardo da Vinci",
+                "Galileo Galilei",
+                "Isaac Newton"
+            ],
+            "answer": "Johannes Gutenberg"
+        },
+        {
+            "question": "In what year did the United States declare its independence?",
+            "options": [
+                "1776",
+                "1789",
+                "1800",
+                "1754"
+            ],
+            "answer": "1776"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "questions": [
+        {
+            "question": "Who is known as 'The Sultan of Swat'?",
+            "options": [
+                "Babe Ruth",
+                "Mickey Mantle",
+                "Lou Gehrig",
+                "Joe DiMaggio"
+            ],
+            "answer": "Babe Ruth"
+        },
+        {
+            "question": "Which team has won the most World Series titles?",
+            "options": [
+                "New York Yankees",
+                "St. Louis Cardinals",
+                "Boston Red Sox",
+                "Los Angeles Dodgers"
+            ],
+            "answer": "New York Yankees"
+        },
+        {
+            "question": "What is the distance between bases on a baseball field?",
+            "options": [
+                "60 feet",
+                "90 feet",
+                "100 feet",
+                "120 feet"
+            ],
+            "answer": "90 feet"
+        },
+        {
+            "question": "Who holds the record for the most career home runs in MLB?",
+            "options": [
+                "Barry Bonds",
+                "Hank Aaron",
+                "Babe Ruth",
+                "Alex Rodriguez"
+            ],
+            "answer": "Barry Bonds"
+        },
+        {
+            "question": "In what year was the designated hitter (DH) rule introduced?",
+            "options": [
+                "1960",
+                "1973",
+                "1985",
+                "1999"
+            ],
+            "answer": "1973"
+        },
+        {
+            "question": "Which pitcher holds the record for the most strikeouts in a single game?",
+            "options": [
+                "Randy Johnson",
+                "Nolan Ryan",
+                "Sandy Koufax",
+                "Roger Clemens"
+            ],
+            "answer": "Nolan Ryan"
+        },
+        {
+            "question": "What is the term for a batter hitting a home run with the bases loaded?",
+            "options": [
+                "Grand Slam",
+                "Triple Play",
+                "Inside the Park",
+                "Solo Shot"
+            ],
+            "answer": "Grand Slam"
+        },
+        {
+            "question": "Which MLB team has the longest championship drought?",
+            "options": [
+                "Cleveland Guardians",
+                "Chicago Cubs",
+                "Seattle Mariners",
+                "Washington Nationals"
+            ],
+            "answer": "Cleveland Guardians"
+        },
+        {
+            "question": "Who was the first African American player in MLB?",
+            "options": [
+                "Jackie Robinson",
+                "Hank Aaron",
+                "Satchel Paige",
+                "Larry Doby"
+            ],
+            "answer": "Jackie Robinson"
+        },
+        {
+            "question": "What is the 'Curse of the Bambino'?",
+            "options": [
+                "Red Sox winning streak",
+                "Yankees' dominance",
+                "Cubs' curse",
+                "Ruth's trade"
+            ],
+            "answer": "Red Sox winning streak"
+        }
+    ]
+}

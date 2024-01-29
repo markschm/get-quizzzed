@@ -1,0 +1,104 @@
+{
+    "questions": [
+        {
+            "question": "Which team has won the most Super Bowl championships?",
+            "options": [
+                "New England Patriots",
+                "Pittsburgh Steelers",
+                "San Francisco 49ers",
+                "Dallas Cowboys"
+            ],
+            "answer": "New England Patriots"
+        },
+        {
+            "question": "Who holds the record for the most career touchdown passes in the NFL?",
+            "options": [
+                "Tom Brady",
+                "Peyton Manning",
+                "Brett Favre",
+                "Drew Brees"
+            ],
+            "answer": "Tom Brady"
+        },
+        {
+            "question": "Which city is home to the Green Bay Packers?",
+            "options": [
+                "Green Bay",
+                "Chicago",
+                "Milwaukee",
+                "Minneapolis"
+            ],
+            "answer": "Green Bay"
+        },
+        {
+            "question": "Who is the all-time leading rusher in NFL history?",
+            "options": [
+                "Emmitt Smith",
+                "Walter Payton",
+                "Barry Sanders",
+                "Jim Brown"
+            ],
+            "answer": "Emmitt Smith"
+        },
+        {
+            "question": "Which team won the first Super Bowl ever played?",
+            "options": [
+                "Green Bay Packers",
+                "Kansas City Chiefs",
+                "New York Jets",
+                "Pittsburgh Steelers"
+            ],
+            "answer": "Green Bay Packers"
+        },
+        {
+            "question": "In what year was the National Football League (NFL) founded?",
+            "options": [
+                "1920",
+                "1932",
+                "1946",
+                "1958"
+            ],
+            "answer": "1920"
+        },
+        {
+            "question": "Which quarterback is known as 'Broadway Joe'?",
+            "options": [
+                "Joe Montana",
+                "Joe Flacco",
+                "Joe Namath",
+                "Joe Theismann"
+            ],
+            "answer": "Joe Namath"
+        },
+        {
+            "question": "What is the nickname of the Pittsburgh Steelers' defense in the 1970s?",
+            "options": [
+                "Steel Curtain",
+                "Iron Shield",
+                "Steel Wall",
+                "Pitt Defense"
+            ],
+            "answer": "Steel Curtain"
+        },
+        {
+            "question": "Which team won Super Bowl 50?",
+            "options": [
+                "Denver Broncos",
+                "Carolina Panthers",
+                "New England Patriots",
+                "Seattle Seahawks"
+            ],
+            "answer": "Denver Broncos"
+        },
+        {
+            "question": "What is the home stadium of the Dallas Cowboys?",
+            "options": [
+                "AT&T Stadium",
+                "Lambeau Field",
+                "Soldier Field",
+                "MetLife Stadium"
+            ],
+            "answer": "AT&T Stadium"
+        }
+    ]
+}
