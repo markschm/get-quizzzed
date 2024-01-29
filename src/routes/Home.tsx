@@ -6,31 +6,28 @@ export default function Home() {
     const quizTopics = ["Baseball", "Football", "History"];
 
     return (
-        <div className="homeScreen screen">
+        <div className="screen card mx-auto">
             <h2>Select a topic!</h2>
+            <br />
 
-            <ul>
-                {quizTopics.map((topic) => {
-                    return (
-                        <li
-                            key={topic}
-                            onClick={() => setSelectedTopic(topic)}
-                            className={
-                                "quizTopicElement" +
-                                (selectedTopic === topic
-                                    ? " selectedTopicElement"
-                                    : "")
-                            }
-                        >
-                            {topic}
-                        </li>
-                    );
-                })}
-            </ul>
+            {quizTopics.map((topic) => (
+                <div
+                    key={topic}
+                    onClick={() => setSelectedTopic(topic)}
+                    className={
+                        "alert" +
+                        (selectedTopic === topic
+                            ? " alert-primary"
+                            : " alert-secondary")
+                    }
+                >
+                    {topic}
+                </div>
+            ))}
 
             {selectedTopic && (
                 <Link to={`/quiz/${selectedTopic}`}>
-                    <button>Start Quiz</button>
+                    <button className="btn btn-success">Start Quiz</button>
                 </Link>
             )}
         </div>

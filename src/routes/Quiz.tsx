@@ -40,14 +40,18 @@ export default function Quiz() {
 
     if (currentQuestion >= questions.length) {
         return (
-            <div className="quizScreen screen">
-                <h2 className="sectionHeader">
-                    Final Score: {score} / {questions.length}
+            <div className="screen card mx-auto">
+                <h2>Final Score</h2>
+
+                <h2 className="score">
+                    {score} / {questions.length}
                 </h2>
 
-                <Link to={"/"}>
-                    <button>Return Home</button>
-                </Link>
+                <div>
+                    <Link to={"/"}>
+                        <button className="btn btn-primary">Return Home</button>
+                    </Link>
+                </div>
             </div>
         );
     }
@@ -63,47 +67,57 @@ export default function Quiz() {
     function nextQuestion() {
         setCurrentQuestion(currentQuestion + 1);
         setIsShowingResults(false);
+        setCurrentSelectedOption("");
     }
 
     return (
-        <div className="quizScreen screen">
-            <h2 className="sectionHeader">
-                Question # {currentQuestion + 1} / {questions.length}
-            </h2>
+        <div className="screen card mx-auto">
+            <div className="row">
+                <div className="col-md-3">
+                    <h3>
+                        {currentQuestion + 1} / {questions.length}
+                    </h3>
+                </div>
 
-            <h3 className="question">{questions[currentQuestion].question}</h3>
+                <div className="col-md-9 order-md-first">
+                    <h3>{questions[currentQuestion].question}</h3>
+                </div>
+            </div>
 
-            {questions[currentQuestion].options.map((option) => {
-                return (
-                    <div
-                        key={option}
-                        className={
-                            "questionOption" +
-                            (currentSelectedOption === option
-                                ? " currentSelectedOption"
-                                : "") +
-                            (isShowingResults &&
-                            option === questions[currentQuestion].answer
-                                ? " correctOption"
-                                : "")
-                        }
-                        onClick={() =>
-                            !isShowingResults &&
-                            setCurrentSelectedOption(option)
-                        }
+            {questions[currentQuestion].options.map((option) => (
+                <div
+                    key={option}
+                    className={getOptionClassNames(
+                        option,
+                        currentSelectedOption,
+                        questions[currentQuestion].answer,
+                        isShowingResults
+                    )}
+                    onClick={() =>
+                        !isShowingResults && setCurrentSelectedOption(option)
+                    }
+                >
+                    {option}
+                </div>
+            ))}
+
+            <div>
+                {isShowingResults ? (
+                    <button
+                        className="btn btn-primary"
+                        onClick={() => nextQuestion()}
                     >
-                        {option}
-                    </div>
-                );
-            })}
-
-            {isShowingResults ? (
-                <button onClick={() => nextQuestion()}>Next Question</button>
-            ) : (
-                <button onClick={() => currentSelectedOption && submitAnswer()}>
-                    Submit
-                </button>
-            )}
+                        Next Question
+                    </button>
+                ) : (
+                    <button
+                        className="btn btn-success"
+                        onClick={() => currentSelectedOption && submitAnswer()}
+                    >
+                        Submit
+                    </button>
+                )}
+            </div>
         </div>
     );
 }
@@ -124,4 +138,28 @@ function getRandomizedArray(arr: any[]): any[] {
     }
 
     return arr;
+}
+
+function getOptionClassNames(
+    option: string,
+    currentSelectedOption: string,
+    answer: string,
+    isShowingResults: boolean
+) {
+    let classNames = "alert ";
+    if (isShowingResults) {
+        if (option === answer) {
+            classNames += "alert-correct";
+        } else if (option === currentSelectedOption) {
+            classNames += "alert-incorrect";
+        } else {
+            classNames += "alert-secondary";
+        }
+    } else if (option === currentSelectedOption) {
+        classNames += "alert-primary";
+    } else {
+        classNames += "alert-secondary";
+    }
+
+    return classNames;
 }

@@ -6,8 +6,8 @@ import Home from "./routes/Home";
 
 export default function App() {
     return (
-        <div className="App">
-            <h1 className="appTitle">Get Quizzzed</h1>
+        <div className="App text-center">
+            <h1 className="appTitle">Get Quizzzed!</h1>
 
             <BrowserRouter>
                 <Routes>

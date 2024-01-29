@@ -1,11 +1,24 @@
-.selectedTopicElement {
-    background-color: red;
+.alert-correct {
+    background-color: rgb(34, 160, 34);
 }
 
-.currentSelectedOption {
-    background-color: red;
+.alert-incorrect {
+    background-color: rgb(193, 57, 57);
 }
 
-.correctOption {
-    background-color: green;
+.screen {
+    padding: 20px;
+    width: min(90%, 600px);
+}
+
+h1 {
+    padding: 20px;
+}
+
+.score {
+    margin: 30px;
+}
+
+body {
+    background-color: rgb(169, 218, 218);
 }
