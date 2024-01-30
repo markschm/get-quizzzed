@@ -9,7 +9,7 @@ export default function App() {
         <div className="App text-center">
             <h1 className="appTitle">Get Quizzzed!</h1>
 
-            <BrowserRouter>
+            <BrowserRouter basename="/get-quizzzed">
                 <Routes>
                     <Route key="Home" path="/" element={<Home />} />
                     <Route key="Quiz" path="quiz/:topic" element={<Quiz />} />
