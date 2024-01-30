@@ -22,3 +22,7 @@ h1 {
 body {
     background-color: rgb(169, 218, 218);
 }
+
+div:hover {
+    cursor: default;
+}

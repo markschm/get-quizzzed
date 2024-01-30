@@ -1,9 +1,16 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
+const quizTopics = [
+    "Baseball",
+    "Football",
+    "History",
+    "Geography",
+    "Basketball",
+];
+
 export default function Home() {
     const [selectedTopic, setSelectedTopic] = useState("");
-    const quizTopics = ["Baseball", "Football", "History", "Geography", "Basketball"];
 
     return (
         <div className="screen card mx-auto">
