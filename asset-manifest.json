@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/get-quizzzed/static/css/main.4afab122.css",
+    "main.js": "/get-quizzzed/static/js/main.5fa7f4e2.js",
+    "index.html": "/get-quizzzed/index.html",
+    "main.4afab122.css.map": "/get-quizzzed/static/css/main.4afab122.css.map",
+    "main.5fa7f4e2.js.map": "/get-quizzzed/static/js/main.5fa7f4e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4afab122.css",
+    "static/js/main.5fa7f4e2.js"
+  ]
+}
